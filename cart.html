@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logogrey.png" alt="Логотип"></a>
+        </div>
+        <h1 class="header-title">Насолоджуйся смаком, ми доставимо</h1>
+        <input class="search" type="text" placeholder="Пошук">
+        <div class="top-menu">
+            <button class="icon-button"><a href="profile.html">
+                <img src="images/profile.png" alt="Профіль"> Профіль
+            </a></button>
+            <button class="icon-button"><img src="images/language.png" alt="English"> English</button>
+            <button class="icon-button"><img src="images/settings.png" alt="Налаштування"> Налаштування</button>
+        </div>
+        <div class="cart">
+        </div>
+    </header>
+
+    <div class="back-button">
+        <a href="index.html"><button class="icon-button"><img src="images/back.png" alt="Назад"> Назад</button></a>
+    </div>
+
+    <main class="cart-page">
+        <div class="cart-page-title">Кошик</div>
+        <section class="cart-left">
+            <h2>Ваш кошик:</h2>
+            <div class="cart-item">
+                <img src="images/1.jpg" alt="KFC Wings">
+                <div>
+                    <p class="item-name">МЕНЮ ЗI СТРІПСАМИ</p>
+                    <p class="item-desc">5 стріпсів + картопля фрі стандарт + напій на вибір 0,5 л | 275 г / 813,40 ккал</p>
+                    <span class="item-qty">- 1 +</span>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="images/2.jpg" alt="Twister">
+                <div>
+                    <p class="item-name">МЕНЮ З КРИЛЬЦЯМИ</p>
+                    <p class="item-desc">О5 крилець + картопля фрі стандарт + капій на вибір 0,5 л | 245 г / 695,10 ккал</p>
+                    <span class="item-qty">- 2 +</span>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="images/3.jpg" alt="Фрі">
+                <div>
+                    <p class="item-name">МЕНЮ З НАГЕТСАМИ</p>
+                    <p class="item-desc">9 нагетсів + картопля фрі стандарт + напій на вибір 0,5 л | 255 г / 1213,40 ккал</p>
+                    <span class="item-qty">- 1 +</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-form">
+            <form>
+                <label>Оформлення замовлення:<p></label>
+                <input type="text" placeholder="Ім'я">
+                <input type="tel" placeholder="Телефон">
+                <textarea placeholder="Геолокація"></textarea>
+                <textarea placeholder="Оплата"></textarea>
+                <div class="order-buttons">
+                    <button type="submit">Підтвердження</button>
+                    <button type="reset">Скасування</button>
+                </div>
+            </form>
+            <p class="delivery-info">Інформації про час очікування: 45-60 хв.</p>
+        </section>
+    </main>
+</body>
+</html>
